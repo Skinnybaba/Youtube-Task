@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="page-container">
+        <div class="header">
+            <div class="leftside-header-container">
+                <div class="logo-container">
+                    <i class="fa-solid fa-bars"></i>
+                    <img src="./images/youtube logo.svg" alt="logo">
+                </div>
+            </div>
+        
+            <div class="center-header-container">
+                <div class="search-container">
+                    <form action="">
+                        <input type="text" placeholder="Search">
+                    </form>
+                    <button class="search"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></button>
+                    <button class="mic"><a href="#"><i class="fa-solid fa-microphone"></i></a></button>
+                </div>
+            </div>
+        
+            <div class="profile-notification-container">
+        
+                <i class="fa-solid fa-video"><a href="#"></a></i></i>
+        
+        
+                <i class="fa-solid fa-bell"><a href="#"></a></i>
+        
+        
+                <div class="profile-container">
+                    <img src="./images/avatar.jpg" alt="profile-picture">
+                </div>
+            </div>
+        </div>
+
+        <div class="main-container">
+        
+            <div class="nav-left-container">
+        
+                <div class="nav-list">
+                    <div class="nav-list-container">
+                        <i class="ri-home-line"></i>
+                        <div class="menu-title">
+                            <p>Home</p>
+                        </div>
+                    </div>
+                    <div class="nav-list-container">
+                        <i class="ri-movie-2-line"></i>
+                        <div class="menu-title">
+                            <p>Shorts</p>
+                        </div>
+                    </div>
+                    <div class="nav-list-container">
+                        <i class="ri-film-line"></i>
+                        <div class="menu-title">
+                            <p>Subscriptions</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="nav-list">
+                    <div class="nav-list-container">
+                        <div class="h3-menu-title">
+                            <h3>You</h3>
+                        </div>
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="nav-list-container">
+                        <i class="ri-folder-user-line"></i>
+                        <div class="menu-title">
+                            <p>Your channel</p>
+                        </div>
+                    </div>
+                    <div class="nav-list-container">
+                        <i class="ri-chat-history-line"></i>
+                        <div class="menu-title">
+                            <p>History</p>
+                        </div>
+                    </div>
+                    <div class="nav-list-container">
+                        <i class="ri-play-list-2-line"></i>
+                        <div class="menu-title">
+                            <p>Playlists</p>
+                        </div>
+                    </div>
+                    <div class="nav-list-container">
+                        <i class="ri-folder-video-line"></i>
+                        <div class="menu-title">
+                            <p>Your videos</p>
+                        </div>
+                    </div>
+                    <div class="nav-list-container">
+                        <i class="ri-time-line"></i>
+                        <div class="menu-title">
+                            <p>Watch later</p>
+                        </div>
+                    </div>
+                    <div class="nav-list-container">
+                        <i class="ri-thumb-up-line"></i>
+                        <div class="menu-title">
+                            <p>Liked videos</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav-list">
+                    <div class="nav-list-container">
+                        <div class="h3-menu-title">
+                            <h3>Subscriptions</h3>
+                        </div>
+                    </div>
+                    <div class="nav-list-container">
+                        <i class="ri-fire-line"></i>
+                        <div class="menu-title">
+                            <p>Trending</p>
+                        </div>
+                    </div>
+                    <div class="nav-list-container">
+                        <i class="ri-music-line"></i>
+                        <div class="menu-title">
+                            <p>Music</p>
+                        </div>
+                    </div>
+                    <div class="nav-list-container">
+                        <i class="ri-gamepad-line"></i>
+                        <div class="menu-title">
+                            <p>Gaming</p>
+                        </div>
+                    </div>
+                    <div class="nav-list-container">
+                        <i class="ri-newspaper-line"></i>
+                        <div class="menu-title">
+                            <p>News</p>
+                        </div>
+                    </div>
+                    <div class="nav-list-container">
+                        <i class="ri-trophy-line"></i>
+                        <div class="menu-title">
+                            <p>Sports</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-content-container">
+                <div class="searchwords-container">
+                    <button class="highlight-button">All</button>
+                    <button>Nollywood</button>
+                    <button>David Goggins</button>
+                    <button>Music</button>
+                    <button>Neuroscience</button>
+                    <button>Couples</button>
+                    <button>User interface design</button>
+                    <button>Live</button>
+                    <button>Graphic design</button>
+                    <button>Goal-setting theory</button>
+                    <button>Skills</button>
+                    <button>Romantic comedies</button>
+                </div>
+                
+                <div class="video-grid1">
+
+                    <!-- first video -->
+                    <div class="video-item">
+                        <div class="bg-image-container1">
+                            
+                        </div>
+
+                        <div class="channel-title-details-container">
+                            <div class="channel-image-title-icon-container">
+                                <div class="channel-image-container">
+                                    <img src="./images/channels1.jpg" alt="">
+                                </div>
+                            
+                                <div class="title-container">
+                                    <h3>Mushroom Shade Episode 3</h3>
+                                    <div class="channel-name-detail-container">
+                                        <p>Chaz productions</p>
+                                        <p>1M views • 1 week ago</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="icon-container">
+                                <i class="ri-more-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- second video -->
+                    <div class="video-item">
+                        <div class="bg-image-container2">
+                    
+                        </div>
+                    
+                        <div class="channel-title-details-container">
+                            <div class="channel-image-title-icon-container">
+                                <div class="channel-image-container">
+                                    <img src="./images/channels2.jpg" alt="">
+                                </div>
+                    
+                                <div class="title-container">
+                                    <h3>Must Know Tips to Improve Visual Design Skills</h3>
+                                    <div class="channel-name-detail-container">
+                                        <p>Ceasar Graphix</p>
+                                        <p>1M views • 2 weeks ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="icon-container">
+                                <i class="ri-more-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 3rd video -->
+                    <div class="video-item">
+                        <div class="bg-image-container3">
+                    
+                        </div>
+                    
+                        <div class="channel-title-details-container">
+                            <div class="channel-image-title-icon-container">
+                                <div class="channel-image-container">
+                                    <img src="./images/channels3.jpg" alt="">
+                                </div>
+                    
+                                <div class="title-container">
+                                    <h3>Bottomline: [2024 Comedy Series] E1: The Crime</h3>
+                                    <div class="channel-name-detail-container">
+                                        <p>Chaz productions</p>
+                                        <p>1M views • 1 week ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="icon-container">
+                                <i class="ri-more-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4th video -->
+                    <div class="video-item">
+                        <div class="bg-image-container4">
+                    
+                        </div>
+                    
+                        <div class="channel-title-details-container">
+                            <div class="channel-image-title-icon-container">
+                                <div class="channel-image-container">
+                                    <img src="./images/channels4.jpg" alt="">
+                                </div>
+                    
+                                <div class="title-container">
+                                    <h3>Why I left Mark Angel Comedy and will never go back - Denilson Igwe Comedy</h3>
+                                    <div class="channel-name-detail-container">
+                                        <p>Denilson Igwe Comedy</p>
+                                        <p>198k views • 2 weeks ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                            <div class="icon-container">
+                                <i class="ri-more-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-grid1">
+                    
+                    <!-- 5th video -->
+                    <div class="video-item">
+                        <div class="bg-image-container5">
+                
+                        </div>
+                
+                        <div class="channel-title-details-container">
+                            <div class="channel-image-title-icon-container">
+                                <div class="channel-image-container">
+                                    <img src="./images/channels5.jpg" alt="">
+                                </div>
+                
+                                <div class="title-container">
+                                    <h3>How to Design Farm Flyer using Photoshop || Simple & Unique</h3>
+                                    <div class="channel-name-detail-container">
+                                        <p>Moreasy Graphics</p>
+                                        <p>358k views • 3 weeks ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="icon-container">
+                                <i class="ri-more-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- 6th video -->
+                    <div class="video-item">
+                        <div class="bg-image-container6">
+                
+                        </div>
+                
+                        <div class="channel-title-details-container">
+                            <div class="channel-image-title-icon-container">
+                                <div class="channel-image-container">
+                                    <img src="./images/channels6.jpg" alt="">
+                                </div>
+                
+                                <div class="title-container">
+                                    <h3>Message and The Messenger</h3>
+                                    <div class="channel-name-detail-container">
+                                        <p>Deep Call Digital</p>
+                                        <p>1M views • 1 week ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="icon-container">
+                                <i class="ri-more-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- 7th video -->
+                    <div class="video-item">
+                        <div class="bg-image-container7">
+                
+                        </div>
+                
+                        <div class="channel-title-details-container">
+                            <div class="channel-image-title-icon-container">
+                                <div class="channel-image-container">
+                                    <img src="./images/channels7.jpg" alt="">
+                                </div>
+                
+                                <div class="title-container">
+                                    <h3>Logo Design Process with Golden Ratio</h3>
+                                    <div class="channel-name-detail-container">
+                                        <p>Royal logos</p>
+                                        <p>47k views • 1 year ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="icon-container">
+                                <i class="ri-more-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- 8th video -->
+                    <div class="video-item">
+                        <div class="bg-image-container8">
+                
+                        </div>
+                
+                        <div class="channel-title-details-container">
+                            <div class="channel-image-title-icon-container">
+                                <div class="channel-image-container">
+                                    <img src="./images/channels1.jpg" alt="">
+                                </div>
+                
+                                <div class="title-container">
+                                    <h3>1 Hour Of 90s Stand Up Comedy | #1</h3>
+                                    <div class="channel-name-detail-container">
+                                        <p>Comedy Gaff</p>
+                                        <p>398k views • 4 months ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="icon-container">
+                                <i class="ri-more-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-grid1">
+                    <div class="video-item">
+                        <div class="bg-image-container">
+                
+                        </div>
+                
+                        <div class="channel-title-details-container">
+                            <div class="channel-image-title-icon-container">
+                                <div class="channel-image-container">
+                                    <img src="./images/channels1.jpg" alt="">
+                                </div>
+                
+                                <div class="title-container">
+                                    <h3>Mushroom Shade Episode 3</h3>
+                                    <div class="channel-name-detail-container">
+                                        <p>Chaz productions</p>
+                                        <p>1M views • 1 week ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="icon-container">
+                                <i class="ri-more-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="video-item">
+                        <div class="bg-image-container">
+                
+                        </div>
+                
+                        <div class="channel-title-details-container">
+                            <div class="channel-image-title-icon-container">
+                                <div class="channel-image-container">
+                                    <img src="./images/channels1.jpg" alt="">
+                                </div>
+                
+                                <div class="title-container">
+                                    <h3>Mushroom Shade Episode 3</h3>
+                                    <div class="channel-name-detail-container">
+                                        <p>Chaz productions</p>
+                                        <p>1M views • 1 week ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="icon-container">
+                                <i class="ri-more-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="video-item">
+                        <div class="bg-image-container">
+                
+                        </div>
+                
+                        <div class="channel-title-details-container">
+                            <div class="channel-image-title-icon-container">
+                                <div class="channel-image-container">
+                                    <img src="./images/channels1.jpg" alt="">
+                                </div>
+                
+                                <div class="title-container">
+                                    <h3>Mushroom Shade Episode 3</h3>
+                                    <div class="channel-name-detail-container">
+                                        <p>Chaz productions</p>
+                                        <p>1M views • 1 week ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="icon-container">
+                                <i class="ri-more-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="video-item">
+                        <div class="bg-image-container">
+                
+                        </div>
+                
+                        <div class="channel-title-details-container">
+                            <div class="channel-image-title-icon-container">
+                                <div class="channel-image-container">
+                                    <img src="./images/channels1.jpg" alt="">
+                                </div>
+                
+                                <div class="title-container">
+                                    <h3>Mushroom Shade Episode 3</h3>
+                                    <div class="channel-name-detail-container">
+                                        <p>Chaz productions</p>
+                                        <p>1M views • 1 week ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                
+                            <div class="icon-container">
+                                <i class="ri-more-2-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- <div class="video-content-container">
+                <div class="searchwords-container">
+                    <button>All</button>
+                    <button>Nollywood</button>
+                    <button>David Goggins</button>
+                    <button>Music</button>
+                    <button>Neuroscience</button>
+                    <button>Couples</button>
+                    <button>User interface design</button>
+                    <button>Live</button>
+                    <button>Graphic design</button>
+                    <button>Goal-setting theory</button>
+                    <button>Skills</button>
+                </div>
+                <div class="video-grid">
+                    <div class="video-item">
+                        <img src="thumbnail1.jpg" alt="Video Thumbnail">
+                        <div class="video-info">
+                            <h3>Video Title 1</h3>
+                            <p>Channel Name 1</p>
+                            <p>1M views • 1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <img src="thumbnail1.jpg" alt="Video Thumbnail">
+                        <div class="video-info">
+                            <h3>Video Title 1</h3>
+                            <p>Channel Name 1</p>
+                            <p>1M views • 1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <img src="thumbnail1.jpg" alt="Video Thumbnail">
+                        <div class="video-info">
+                            <h3>Video Title 1</h3>
+                            <p>Channel Name 1</p>
+                            <p>1M views • 1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <img src="thumbnail1.jpg" alt="Video Thumbnail">
+                        <div class="video-info">
+                            <h3>Video Title 1</h3>
+                            <p>Channel Name 1</p>
+                            <p>1M views • 1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <img src="thumbnail1.jpg" alt="Video Thumbnail">
+                        <div class="video-info">
+                            <h3>Video Title 1</h3>
+                            <p>Channel Name 1</p>
+                            <p>1M views • 1 week ago</p>
+                        </div>
+                    </div>
+                    <div class="video-item">
+                        <img src="thumbnail1.jpg" alt="Video Thumbnail">
+                        <div class="video-info">
+                            <h3>Video Title 1</h3>
+                            <p>Channel Name 1</p>
+                            <p>1M views • 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</body>
+</html>
